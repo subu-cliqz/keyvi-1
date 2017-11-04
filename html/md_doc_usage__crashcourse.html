@@ -102,7 +102,7 @@ $(document).ready(function(){initNavTree('md_doc_usage__crashcourse.html','');})
 <p>Try: </p>
 <pre class="fragment">keyvi -h
 </pre><p>Try in python: </p>
-<pre class="fragment">import pykeyvi
+<pre class="fragment">import keyvi
 </pre><h3>First compile and decompile</h3>
 <p>Open a text editor and put some keys in there, e.g. </p>
 <pre class="fragment">keyvi
@@ -122,8 +122,8 @@ index
 </ul>
 <h4>Open the file in python</h4>
 <p>Do: </p>
-<pre class="fragment">import pykeyvi
-d = pykeyvi.Dictionary("compiled.kv")
+<pre class="fragment">import keyvi
+d = keyvi.Dictionary("compiled.kv")
 "keyvi" in d
 </pre><p>should return True </p>
 <pre class="fragment">match = d['keyvi']
@@ -145,7 +145,7 @@ d = pykeyvi.Dictionary("compiled.kv")
 </pre><p>The output should be:</p>
 <p>``` { "General": { "manifest": "", "number_of_keys": "6", "number_of_states": "14", "start_state": "19", "value_store_type": "1", "version": "2" }, "Persistence": { "size": "280", "version": "2" } } ```</p>
 <p>Note: As we have compiled <code>key-only</code> dictionary there is no info regarding values.</p>
-<p>Similarly with python, on the <code>pykeyvi.Dictionary</code> object <code>d</code> the call <code>d.GetStatistics()</code> will return the same information.</p>
+<p>Similarly with python, on the <code>keyvi.Dictionary</code> object <code>d</code> the call <code>d.GetStatistics()</code> will return the same information.</p>
 <h3>Lookup and Extraction</h3>
 <p>Go to <a href="/pykeyvi/examples/lookup">lookup examples</a></p>
 <p>Compile cities.tsv and run the tester: </p>
@@ -207,7 +207,7 @@ python prefix_completion_tester.py
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Wed Jun 7 2017 13:38:37 by
+    <li class="footer">Generated on Sat Nov 4 2017 21:53:50 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

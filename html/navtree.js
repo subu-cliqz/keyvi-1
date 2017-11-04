@@ -6,7 +6,7 @@ var NAVTREE =
     [ "Minimization", "md_doc_algorithm__minimization.html", null ],
     [ "Persistence Introduction", "md_doc_algorithm__persistence-_basics.html", null ],
     [ "Scaling", "md_doc_algorithm__scaling.html", null ],
-    [ "The pykeyvi compilers", "md_doc_usage__building_keyvi_dictionaries_with_python.html", null ],
+    [ "The python keyvi compilers", "md_doc_usage__building_keyvi_dictionaries_with_python.html", null ],
     [ "Preparations", "md_doc_usage__building_keyvi_dictionaries.html", null ],
     [ "keyvi Crashcourse", "md_doc_usage__crashcourse.html", null ],
     [ "Using keyvi in pyspark or mrjob", "md_doc_usage__using_pykeyvi_in__e_m_r.html", null ],
@@ -32,9 +32,9 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 ".html",
-"classkeyvi_1_1dictionary_1_1fsa_1_1internal_1_1_int_inner_weights_value_store.html#aa3bc204424efaa8bce7a9366340977ed",
-"classkeyvi_1_1transform_1_1_fsa_transform.html#a8053e9cc2448077c1b691944a2fad6b7",
-"structkeyvi_1_1dictionary_1_1fsa_1_1traversal_1_1_traversal_stack.html#a628b9938068a8447cb4f5610f44c4044"
+"classkeyvi_1_1dictionary_1_1fsa_1_1internal_1_1_int_inner_weights_value_store.html#aa030fa59145b9d5cbbbeee4e3c491a6a",
+"classkeyvi_1_1transform_1_1_fsa_transform.html",
+"structkeyvi_1_1dictionary_1_1fsa_1_1traversal_1_1_traversal_stack.html#a437165efeddfc79fa625c7a90ef26273"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

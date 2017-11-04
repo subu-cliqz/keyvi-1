@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['the_20pykeyvi_20compilers',['The pykeyvi compilers',['../md_doc_usage__building_keyvi_dictionaries_with_python.html',1,'']]],
+  ['the_20python_20keyvi_20compilers',['The python keyvi compilers',['../md_doc_usage__building_keyvi_dictionaries_with_python.html',1,'']]],
   ['tempdictionary',['TempDictionary',['../classkeyvi_1_1dictionary_1_1testing_1_1_temp_dictionary.html',1,'keyvi::dictionary::testing']]],
   ['tpieintializer',['TpieIntializer',['../classkeyvi_1_1dictionary_1_1util_1_1_tpie_intializer.html',1,'keyvi::dictionary::util']]],
   ['tpiesorter',['TpieSorter',['../classkeyvi_1_1dictionary_1_1sort_1_1_tpie_sorter.html#aa5102d8c6454edb29087d661895a5400',1,'keyvi::dictionary::sort::TpieSorter::TpieSorter(const sorter_param_t &amp;params=sorter_param_t())'],['../classkeyvi_1_1dictionary_1_1sort_1_1_tpie_sorter.html#a9fc40244e950038fe694888c8884e02a',1,'keyvi::dictionary::sort::TpieSorter::TpieSorter(size_t memory_limit, const sorter_param_t &amp;params=sorter_param_t())']]],
