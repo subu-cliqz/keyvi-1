@@ -42,9 +42,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li class="current"><a href="pages.html"><span>Related&#160;Pages</span></a></li>
-      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
-      <li><a href="annotated.html"><span>Classes</span></a></li>
-      <li><a href="files.html"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -83,7 +80,7 @@ $(document).ready(function(){initNavTree('md_doc_usage__crashcourse.html','');})
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -147,13 +144,13 @@ d = keyvi.Dictionary("compiled.kv")
 <p>Note: As we have compiled <code>key-only</code> dictionary there is no info regarding values.</p>
 <p>Similarly with python, on the <code>keyvi.Dictionary</code> object <code>d</code> the call <code>d.GetStatistics()</code> will return the same information.</p>
 <h3>Lookup and Extraction</h3>
-<p>Go to <a href="/pykeyvi/examples/lookup">lookup examples</a></p>
+<p>Go to <a href="/python/examples/lookup">lookup examples</a></p>
 <p>Compile cities.tsv and run the tester: </p>
 <pre class="fragment">keyvicompiler -i cities.tsv -o cities.keyvi -d key-only
 python text_lookup_tester.py
 </pre><p>Try queries like: "Fahrradwerkstatt München", "Berlin Alexanderplatz", "San Francisco Coffee Bar"</p>
 <h4>Build your own index</h4>
-<p>Try pykeyvi/scripts/compile_json.py and compile your own JSON. The format should be: </p>
+<p>Try python/scripts/compile_json.py and compile your own JSON. The format should be: </p>
 <pre class="fragment">key {"city": "Munich", "state": "Germany"}
 </pre><p>(put a tab ('') between key and value, you can also use keyvicompiler instead, but the idea of this excercise is to use the compiler from the python bindings.)</p>
 <p>Check statistics:</p>
@@ -165,7 +162,7 @@ python text_lookup_tester.py
 <p>With sharding (for distributed data indexes): </p>
 <pre class="fragment"> compile_json.py -i your-input -o your-keyvi.keyvi -s 3
 </pre><h3>Completion</h3>
-<p>Go to <a href="/pykeyvi/examples/completion">completion examples</a></p>
+<p>Go to <a href="/python/examples/completion">completion examples</a></p>
 <h4>Prefix completion</h4>
 <p>Have a look at the files completion-nw.tsv, completion.tsv it basically contains keys and integer values:</p>
 <p>Compile and try: </p>
@@ -198,7 +195,7 @@ python prefix_completion_tester.py
 <li>Why is it still 'relative small'?</li>
 </ul>
 <h3>Normalization</h3>
-<p>Go to <a href="/pykeyvi/examples/normalization">normalization examples</a></p>
+<p>Go to <a href="/python/examples/normalization">normalization examples</a></p>
 <p>Compile with: </p>
 <pre class="fragment">keyvicompiler -i normalization.tsv -o normalization.keyvi -d string
 </pre><p>and try: </p>
@@ -207,7 +204,7 @@ python prefix_completion_tester.py
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Sun Nov 5 2017 08:07:17 by
+    <li class="footer">Generated on Sun Nov 5 2017 09:19:57 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

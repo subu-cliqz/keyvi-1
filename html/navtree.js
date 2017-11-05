@@ -9,32 +9,13 @@ var NAVTREE =
     [ "The python keyvi compilers", "md_doc_usage__building_keyvi_dictionaries_with_python.html", null ],
     [ "Preparations", "md_doc_usage__building_keyvi_dictionaries.html", null ],
     [ "keyvi Crashcourse", "md_doc_usage__crashcourse.html", null ],
-    [ "Using keyvi in pyspark or mrjob", "md_doc_usage__using_pykeyvi_in__e_m_r.html", null ],
-    [ "Namespaces", null, [
-      [ "Namespace List", "namespaces.html", "namespaces" ]
-    ] ],
-    [ "Classes", null, [
-      [ "Class List", "annotated.html", "annotated" ],
-      [ "Class Index", "classes.html", null ],
-      [ "Class Hierarchy", "hierarchy.html", "hierarchy" ],
-      [ "Class Members", "functions.html", [
-        [ "All", "functions.html", null ],
-        [ "Functions", "functions_func.html", null ],
-        [ "Typedefs", "functions_type.html", null ]
-      ] ]
-    ] ],
-    [ "Files", null, [
-      [ "File List", "files.html", "files" ]
-    ] ]
+    [ "Using keyvi in pyspark or mrjob", "md_doc_usage__using_pykeyvi_in__e_m_r.html", null ]
   ] ]
 ];
 
 var NAVTREEINDEX =
 [
-".html",
-"classkeyvi_1_1dictionary_1_1fsa_1_1internal_1_1_int_inner_weights_value_store.html#aa030fa59145b9d5cbbbeee4e3c491a6a",
-"classkeyvi_1_1transform_1_1_fsa_transform.html",
-"structkeyvi_1_1dictionary_1_1fsa_1_1traversal_1_1_traversal_stack.html#a437165efeddfc79fa625c7a90ef26273"
+"index.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
