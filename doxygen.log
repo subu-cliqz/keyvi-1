@@ -97,17 +97,17 @@ Generating class documentation...
 Generating namespace index...
 Generating graph info page...
 Generating directory document/home/travis/build/KeyviDev/keyvi/README.md:3: warning: unexpected token TK_EOF as the argument of ref
-/home/travis/build/KeyviDev/keyvi/README.md:32: warning: unexpected token TK_EOF as the argument of ref
-/home/travis/build/KeyviDev/keyvi/README.md:34: warning: unexpected token TK_EOF as the argument of ref
-/home/travis/build/KeyviDev/keyvi/README.md:42: warning: unexpected token TK_EOF as the argument of ref
-/home/travis/build/KeyviDev/keyvi/README.md:44: warning: unexpected token TK_EOF as the argument of ref
-/home/travis/build/KeyviDev/keyvi/README.md:45: warning: unexpected token TK_EOF as the argument of ref
-/home/travis/build/KeyviDev/keyvi/README.md:46: warning: unexpected token TK_EOF as the argument of ref
+/home/travis/build/KeyviDev/keyvi/README.md:38: warning: unexpected token TK_EOF as the argument of ref
+/home/travis/build/KeyviDev/keyvi/README.md:40: warning: unexpected token TK_EOF as the argument of ref
+/home/travis/build/KeyviDev/keyvi/README.md:48: warning: unexpected token TK_EOF as the argument of ref
+/home/travis/build/KeyviDev/keyvi/README.md:50: warning: unexpected token TK_EOF as the argument of ref
+/home/travis/build/KeyviDev/keyvi/README.md:51: warning: unexpected token TK_EOF as the argument of ref
 /home/travis/build/KeyviDev/keyvi/README.md:52: warning: unexpected token TK_EOF as the argument of ref
-/home/travis/build/KeyviDev/keyvi/README.md:53: warning: unexpected token TK_EOF as the argument of ref
-/home/travis/build/KeyviDev/keyvi/README.md:54: warning: unexpected token TK_EOF as the argument of ref
-/home/travis/build/KeyviDev/keyvi/README.md:55: warning: unexpected token TK_EOF as the argument of ref
-/home/travis/build/KeyviDev/keyvi/README.md:56: warning: unexpected token TK_EOF as the argument of ref
+/home/travis/build/KeyviDev/keyvi/README.md:58: warning: unexpected token TK_EOF as the argument of ref
+/home/travis/build/KeyviDev/keyvi/README.md:59: warning: unexpected token TK_EOF as the argument of ref
+/home/travis/build/KeyviDev/keyvi/README.md:60: warning: unexpected token TK_EOF as the argument of ref
+/home/travis/build/KeyviDev/keyvi/README.md:61: warning: unexpected token TK_EOF as the argument of ref
+/home/travis/build/KeyviDev/keyvi/README.md:62: warning: unexpected token TK_EOF as the argument of ref
 ation...
 Generating index page...
 Generating page index...
