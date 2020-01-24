@@ -119,6 +119,11 @@ keyvi_match_iterator* keyvi_dictionary_get_multi_word_completions(const keyvi_di
   return new keyvi_match_iterator(multiWordCompletion.GetCompletions(key, cutoff));
 }
 
+
+struct keyvi_match_iterator* keyvi_dictionary_get_all_items(const struct keyvi_dictionary* dict) {
+  return new keyvi_match_iterator(dict->obj_->GetAllItems());
+}
+
 //////////////////////
 //// Match
 //////////////////////

@@ -89,6 +89,13 @@ impl Dictionary {
         };
         KeyviMatchIterator::new(ptr)
     }
+
+    pub fn get_all_items(&self) -> KeyviMatchIterator {
+        let ptr = unsafe {
+            root::keyvi_dictionary_get_all_items(self.dict)
+        };
+        KeyviMatchIterator::new(ptr)
+    }
 }
 
 impl Drop for Dictionary {
